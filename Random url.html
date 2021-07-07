@@ -1,0 +1,150 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Random URLs</title>
+	 <meta  http-equiv="REFRESH" content='1'>
+	<center>Random URLs on page load !!!</center>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	function abc() {
+
+		var divtages=$('div');
+		if(divtages.length){
+			var display=Math.floor(Math.random()*divtages.length);
+
+			for(var i=0;i<divtages.length;i++){
+				if(i!==display){
+					$(divtages[i]).hide();
+				}
+			}
+		}
+	}
+</script>
+</head>
+
+<body onload="abc()">
+<strong>
+	<div>FACEBOOK</div>
+	<div>YOUTUBE</div>
+	<div>GOOGLE</div>
+	<div>TELEGRAM</div>
+	<div>YAHOO</div>
+	<div>INSTRAGARM</div>
+	<div>TIKTOK</div>
+	<div>FIREFOX</div>
+</strong>
+</body>
+</html>
+
+
+
+
+
+
+-->
+
+<!DOCTYPE html>
+
+<!--
+
+|==============================================|
+|==============================================|
+|===|		this code is in french			|===|
+|===|	you can translate it if you want		|===|
+|==============================================|
+|==============================================|
+
+-->
+
+<html>
+
+
+	<head>
+	
+		<title>Google </title>
+	
+		
+		<style> 
+		
+			body {
+				background-color: #000000;
+				text-align: center;
+			}
+			a {
+				color: #ffffff;
+			}
+			a:hover {
+				color: #9efbfa;
+			}
+			h1 {
+				text-align: right;
+				font-size: 20px;
+			}
+			h2 {
+				text-align: left;
+				font-size: 20px;
+			}
+			.fly {
+				float: center;
+				max-width: 40%;
+				height: auto;
+			}
+			
+		</style>
+		
+	
+		
+	</head>
+
+	
+	<body  onmouseleave="randomlinks()">
+	
+	
+	
+		
+		
+		<br /> <br /> <br /> <br /> 
+		
+		
+		<img src=https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png 
+		class="fly" alt="Logo Google" ()>
+		
+
+		<br /> <br />
+		
+		
+		<h2>
+		
+
+			
+			
+			
+			
+			
+		
+			
+
+		
+		</h2>
+		
+		
+	</body>
+	
+	<script>
+		function randomlinks(){
+	var myrandom=Math.round(Math.random()*2)
+	var links=new Array()
+	links[0]="http://www.google.fr/search?q=tractopelle"
+	links[1]="http://www.google.fr/search?q=baleine"
+
+	
+	
+	
+	
+ 
+	window.location=links[myrandom]
+}
+	</script>
+	
+</html>
